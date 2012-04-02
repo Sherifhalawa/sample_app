@@ -2,6 +2,10 @@ class UsersController < ApplicationController
 
 def show
     @user = User.find(params[:id])
+<<<<<<< HEAD
+=======
+    @title = @user.name
+>>>>>>> modeling-users
   end
 
   def new
