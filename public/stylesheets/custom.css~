@@ -112,8 +112,6 @@ footer {
 footer nav {
   float: none;
 }
-<<<<<<< HEAD
-=======
 
 /* User show page */
 
@@ -138,4 +136,7 @@ td.sidebar {
   border: 1px solid #999;
   margin-bottom: -15px;
 }
->>>>>>> modeling-users
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
